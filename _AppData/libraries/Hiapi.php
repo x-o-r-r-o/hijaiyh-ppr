@@ -9,7 +9,7 @@
 
 Class Hiapi{
     public function __construct($params){
-        $this->API_URL = 'https://hijaiyh.me';
+        $this->API_URL = 'https://hijaiyh.jp';
         $this->ACCOUNT_KEY = $params['acc_key'];
         $this->API_KEY = $params['api_key'];
     }
