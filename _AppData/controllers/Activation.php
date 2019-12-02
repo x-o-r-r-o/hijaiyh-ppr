@@ -35,7 +35,7 @@ Class Activation extends CI_Controller{
     {
     	$acc = $this->input->post('account');
     	$api = $this->input->post('signature');
-        $setup = [CURLOPT_URL=>'https://hijaiyh.me/index.php/api_ppr/get/'.$acc.'/'.$api,
+        $setup = [CURLOPT_URL=>'https://hijaiyh.jp/index.php/api_ppr/get/'.$acc.'/'.$api,
                   CURLOPT_USERAGENT=>'HijaIyh_App',
                   CURLOPT_RETURNTRANSFER=>true,
                   CURLOPT_SSL_VERIFYPEER=>false,
